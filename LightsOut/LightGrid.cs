@@ -11,21 +11,13 @@ namespace LightsOut
         public int GridX
         {
             get => (int)numX.Value;
-            set
-            {
-                _gridX = value;
-                _gridX = (int) numX.Value;
-            }
+            set => _gridX = (int) numX.Value;
         }
 
         public int GridY
         {
             get => (int)numY.Value;
-            set
-            {
-                _gridX = value;
-                _gridY = (int) numY.Value;
-            }
+            set => _gridY = (int) numY.Value;
         }
 
         private int _gridX = 5;

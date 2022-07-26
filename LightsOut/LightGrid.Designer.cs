@@ -52,7 +52,7 @@ namespace LightsOut
             this.numX.Size = new System.Drawing.Size(120, 23);
             this.numX.TabIndex = 0;
             this.numX.Value = new decimal(new int[] {
-            5,
+            7,
             0,
             0,
             0});
@@ -71,7 +71,7 @@ namespace LightsOut
             this.numY.Size = new System.Drawing.Size(120, 23);
             this.numY.TabIndex = 1;
             this.numY.Value = new decimal(new int[] {
-            5,
+            7,
             0,
             0,
             0});
